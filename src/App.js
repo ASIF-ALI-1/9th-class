@@ -1,16 +1,16 @@
 import "./App.css"
-import React from 'react'
+// import React from 'react'npm install tailwindcss
 
 const App = () => {
   return (
-    <div class="main">
-      <div class="contianer">
+    <div className="main">
+      <div className="contianer">
           <div><h1>RESUME 1</h1></div>
-          <div class="logo">
+          <div className="logo">
           <img src="assits\new.png"></img>
           <li>Asif Ali</li>
            </div>
-        <div class= "navbar">
+        <div className= "navbar">
 
           <ul>
           <li><a href="#">Home</a></li>
@@ -25,11 +25,22 @@ const App = () => {
           </ul>
         </div>
 
+        
+
 
 
 
       </div>
-      
+              <button type="button" className="btn btn-primary">Primary</button>
+        <button type="button" className="btn btn-secondary">Secondary</button>
+        <button type="button" className="btn btn-success">Success</button>
+        <button type="button" className="btn btn-danger">Danger</button>
+        <button type="button" className="btn btn-warning">Warning</button>
+        <button type="button" className="btn btn-info">Info</button>
+        <button type="button" className="btn btn-light">Light</button>
+        <button type="button" className="btn btn-dark">Dark</button>
+
+        <button type="button" className="btn btn-link">Link</button>
     </div>
   )
 }
