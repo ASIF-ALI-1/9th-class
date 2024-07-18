@@ -5,6 +5,7 @@ const App = () => {
   return (
     <div class="main">
       <div class="contianer">
+          <div><h1>RESUME</h1></div>
           <div class="logo">
           <img src="assits\new.png"></img>
           <li>Asif Ali</li>
