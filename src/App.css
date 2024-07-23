@@ -55,3 +55,13 @@
     width: 100%;
   }
   
+
+
+  .leRotateXZoomIn span { animation-name: leRotateXZoomIn }
+@keyframes leRotateXZoomIn {
+    from {
+        transform: perspective(600px) translate3d(0, -60px, -2000px) rotateX(75deg);
+        opacity: 0
+    }
+    5% { transform: perspective(600px) translate3d(0, -60px, -1500px) rotateX(75deg) }
+}
